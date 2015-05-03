@@ -46,4 +46,7 @@ source 'https://rubygems.org' do
 
   gem 'semantic-ui-sass'
   gem 'slim-rails'
+
+  # Timezone info for Windows
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end
